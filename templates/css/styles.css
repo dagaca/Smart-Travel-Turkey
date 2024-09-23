@@ -1,0 +1,159 @@
+/* Common Body Styles */
+body {
+    padding: 20px;
+    background: linear-gradient(135deg, #f0f4f8, #e0e7ec);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    color: #333;
+}
+
+/* Map Container */
+#map {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #cfd8dc;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Controls Section */
+#controls {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* City Info Box */
+#city-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8fafb;
+    border: 1px solid #e0e7ec;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Headings */
+h1 {
+    color: #2a3b4d;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: #1d2f42;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Labels and Selects */
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #3b4c63;
+}
+
+select {
+    border: 2px solid #80cbc4;
+    color: #004d40;
+    background-color: #f1f7f9;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+select:focus {
+    border-color: #00695c;
+    outline: none;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #00796b;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #004d40;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-back {
+    background-color: #00695c;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-back:hover {
+    background-color: #004d40;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Language Toggle - Refined Design */
+.language-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.language-toggle select {
+    border: 1px solid #cfd8dc; /* Light border to blend with the overall design */
+    color: #2a3b4d; /* Text color matching the rest of the design */
+    font-weight: bold;
+    background: linear-gradient(135deg, #f0f4f8, #e0e7ec); /* Softer gradient matching the page */
+    border-radius: 6px;
+    padding: 6px 12px; /* Slightly reduced padding for better fit */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    transition: all 0.3s;
+    min-width: 140px; /* Slightly narrower to fit the content perfectly */
+}
+
+.language-toggle select:focus {
+    border-color: #b0bec5; /* Subtle focus effect */
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08); /* Softer shadow on focus */
+}
+
+.language-toggle select option {
+    color: #333;
+    background-color: #ffffff;
+}
+
+/* Travel Plan Container Specific to travel_plan.html */
+.plan-container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Paragraphs and Lists */
+p {
+    margin-bottom: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #444;
+}

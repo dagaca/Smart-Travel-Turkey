@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turkey Travel Planner</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to common styles -->
+</head>
+
+<body>
+    <div class="language-toggle">
+        <select id="language-toggle" class="form-select">
+            <option value="en">English</option>
+            <option value="tr">Türkçe</option>
+        </select>
+    </div>
+
+    <h1 id="title">Turkey Travel Planner</h1>
+    <div id="map"></div>
+
+    <div id="controls">
+        <label for="days" id="days-label" class="form-label">Select number of days:</label>
+        <select id="days" class="form-select" aria-label="Select number of days">
+            <option value="1">1 Day</option>
+            <option value="2">2 Days</option>
+            <option value="3">3 Days</option>
+            <option value="4">4 Days</option>
+            <option value="5">5 Days</option>
+        </select>
+
+        <div id="city-info" class="mt-3 text-center">Click on a city to generate a travel plan.</div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/translations.js"></script> <!-- Language management -->
+    <script src="js/map.js"></script>           <!-- Map interactions -->
+    <script src="js/fetch_plan.js"></script>    <!-- Fetch travel plans -->
+</body>
+
+</html>
