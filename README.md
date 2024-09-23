@@ -63,4 +63,4 @@ Contributions are welcome! Fork the repository and submit a pull request for imp
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
-For any questions or feedback, please contact me at [Damla Ağaça](mailto:dagacaa@gmail.com).
+For any questions or feedback, please contact me at [dagacaa@gmail.com](mailto:dagacaa@gmail.com).
