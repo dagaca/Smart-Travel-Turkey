@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/158baa9a-253c-49ab-9e35-dddf16079bb9
 # Smart-Travel-Turkey
 
 ## Overview
@@ -16,7 +14,9 @@ Turkey Travel Planner is an interactive web application that allows users to exp
 
 ## Demo Video
 
-Check out the [demo video](https://github.com/user-attachments/assets/ff1cb958-9884-4fdd-8e2f-723807cc496b) showcasing the application in action with different cities and travel durations.
+Check out the demo video below showcasing the application in action with different cities and travel durations:
+
+https://github.com/user-attachments/assets/ff1cb958-9884-4fdd-8e2f-723807cc496b
 
 ## Getting Started
 
