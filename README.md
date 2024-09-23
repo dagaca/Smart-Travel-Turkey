@@ -14,7 +14,12 @@ Turkey Travel Planner is an interactive web application that allows users to exp
 
 ## Demo Video
 
-Check out the [demo video](https://github.com/user-attachments/assets/43216d0b-2acb-424b-a0b5-348ae34a1275) showcasing the application in action with different cities and travel durations.
+Check out the demo video below showcasing the application in action with different cities and travel durations:
+
+<video width="600" controls>
+  <source src="https://github.com/user-attachments/assets/43216d0b-2acb-424b-a0b5-348ae34a1275" type="video/mp4">
+  Your browser does not support the video tag. You can view the video by clicking [here](https://github.com/user-attachments/assets/43216d0b-2acb-424b-a0b5-348ae34a1275).
+</video>
 
 ## Getting Started
 
