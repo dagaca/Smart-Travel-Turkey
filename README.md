@@ -24,6 +24,7 @@ https://github.com/user-attachments/assets/ff1cb958-9884-4fdd-8e2f-723807cc496b
 
 - **Python 3.x** installed on your machine
 - Basic knowledge of running local servers
+- **OpenAI API Key:** Required for making API requests.
 
 ### Installation
 
